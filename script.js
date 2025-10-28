@@ -10,6 +10,7 @@
         $('.menu-button').click(function(){
             $('.buttons .menu').toggleClass("active");
             $('.menu-button i').toggleClass("active");
+            $('.Home .Home-content a').toggleClass("active"); 
         });
     
             $('.menu li a').click(function(){
