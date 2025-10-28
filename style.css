@@ -78,7 +78,7 @@ ul {
 /*    background: url("image1.jpg") no-repeat center center; */
     background-image: url("image1.jpg");
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: left center;
     background-size: cover;
     height: 100vh;
     color: #fff;
