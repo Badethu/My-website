@@ -75,7 +75,7 @@ ul {
 /* home */
 .Home {
     display: flex;
-    background: url("image1.jpg") no-repeat center;
+    background: url("image1.jpg") no-repeat center center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -149,7 +149,7 @@ section {
     height: 3px;
     background: pink;
     transform: translateX(-50%);
-    
+
 }
 .About .title::after{
     content: "Who I am";
@@ -355,6 +355,17 @@ section {
 
 
 /* Responsive menu */
+@media (max-width: 768px) {
+  .Home {
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: auto;
+    padding: 60px 20px;
+  }
+}
+
+
 @media (max-width: 1300px) {
     .Home .max-width {
         margin-left: 0px;
